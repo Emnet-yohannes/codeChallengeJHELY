@@ -20,23 +20,23 @@ export default function Home() {
 
       <main className="bg-black ">
         <Navbar />
-        <div className="backgroundGradient1 flex flex-col gap-10">
-          <div className="h-[400px] mb-10 w-full relative flex flex-col items-center justify-stretch">
-            <div className="w-full relative flex flex-col justify-center">
+        <div className="backgroundGradient1 flex flex-col">
+          <div className="h-[319px]  mx-[20px] relative flex flex-col items-center justify-stretch">
+            <div className="h-[264px] w-full relative flex flex-col justify-center">
               <Image
                 layout="responsive"
                 objectFit="contain"
                 src={image125}
                 className="w-full h-full"
               />
-              <div className="hidden md:block absolute left-[calc(50%-75px)] -bottom-[20%]  w-[149px] h-[149px]">
-                <Image src={ellipse37} className="w-full rounded-full " />
+              <div className="hidden md:block absolute left-[45.448%] top-[170px]  w-[149px] h-[149px]">
+                <Image src={ellipse37} className="w-[149px] h-[149px] rounded-full " />
               </div>
             </div>
           </div>
 
-          <div className="text-center mt-10 flex flex-col gap-2 items-center justify-center ">
-            <h1 className="text-5xl font-extrabold text-white text-center">
+          <div className="mt-[26px] text-center  flex flex-col items-center justify-center ">
+            <h1 className="text-4xl w-[283px] h-[61px] font-extrabold text-white text-center">
               Lorem Ipsum
             </h1>
             <div className="flex justify-center mt-[6px] h-[40px] text-center ">
@@ -50,27 +50,27 @@ export default function Home() {
               </div>
             </div>
 
-            <h3 className="text-white h-[32px] text-center ">
+            <h3 className="text-white h-[32px] w-[590px] text-center ">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
             </h3>
           </div>
           <div className="flex justify-center space-x-[20px] mt-[61px]">
             <div className="cursor-pointer text-white bg-[#0D0D0D] opacity-50 flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-              <div className="w-4 h-4">
+            <div className="w-[17px] h-[17px">
                 <Image src={Statstics}></Image>
               </div>
 
               <h1>Lorem Ipsum</h1>
             </div>
             <div className="cursor-pointer text-white bg-[#0D0D0D] flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-              <div className="w-4 h-4">
+            <div className="w-[17px] h-[17px">
                 <Image src={optionIcon}></Image>
               </div>
 
               <h1>Lorem Ipsum</h1>
             </div>
             <div className="cursor-pointer text-white  bg-[#0D0D0D] opacity-50 flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-              <div className="w-4 h-4">
+              <div className="w-[17px] h-[17px">
                 <Image src={tag}></Image>
               </div>
 
@@ -78,11 +78,11 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center ">
-            <div className="grid grid-cols-1 gap-8 mt-[73px] xl:grid-cols-2">
+            <div className="grid grid-cols-1 gap-[19px] mt-[73px] xl:grid-cols-2 ">
               <div className=" text-white w-[340px]  md:w-[591px] h-[344px] ">
                 <LeftSide />
               </div>
-              <div className="text-white mb-[138px]  w-[340px] md:w-[591px] h-[438px]">
+              <div className="text-white mb-[138px]  w-[340px] md:w-[591px] h-[438px] ">
                 <RightSide />
               </div>
             </div>
