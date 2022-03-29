@@ -15,7 +15,7 @@ const LeftSide = () => {
     document.getElementById("accordion0").onclick = handleClick;
   }
   return (
-    <div className="bg-[#0D0D0D] opacity-50 w-[340px] md:w-[591px] rounded-[4px]">
+    <div className="backgroundOpacity w-[340px] md:w-[591px] rounded-[4px]">
       <div
         id="accordion0"
         className="cursor-pointer flex justify-between pl-[28px] pr-[38px] pt-[27px] pb-[23px]"
@@ -27,13 +27,13 @@ const LeftSide = () => {
 
           <h1 className="pl-2 h-[22px]">Lorem Ipsum</h1>
         </div>
-        <div className="h-[11.77px] w-[7.19px]">
+        <div className="">
           <Image src={downArrow}></Image>
         </div>
       </div>
       {accordionState ? (
-        <div className="pb-[53px]  w-[200px]  h-[290px] md:w-[591px] md:h-[272px] ">
-          <p className="mb-[42px]  text-white text-sm ml-[28px] font-manrope h-[109px] w-[320px] md:w-[471px] text-[14px] leading-[19.12px]">
+        <div className="pb-[0px] sm:pb-[53px]  w-[200px]  h-[275px] sm:h-[295px] md:w-[591px] md:h-[272px] ">
+          <p className="mb-[42px]  text-white text-sm ml-[14px] sm:ml-[28px] font-manrope h-[109px] w-[320px] md:w-[471px] text-[11px] md:text-[14px] leading-[19.12px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
           </p>

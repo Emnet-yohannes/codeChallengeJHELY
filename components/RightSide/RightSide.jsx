@@ -182,27 +182,27 @@ const RightSide = () => {
   ];
 
   return (
-    <div className="hide-scroll-bar ol-[19px]">
-      <div className="cursor-pointer bg-[#0D0D0D] opacity-50 hide-scroll-bar rounded-[4px] w-[340px] md:w-[591px]  pl-[19px] pb-[48px]">
+    <div className="hide-scroll-bar  ">
+      <div className="cursor-pointer backgroundOpacity hide-scroll-bar rounded-[4px] w-[340px] md:w-[591px]  pl-[30px] ">
         <div id="accordion1" className="flex justify-between pl-[9px]  pt-[27px] pb-[23px] ">
           <div className="flex justify-around">
-            <div className="w-3 h-3">
+            <div className="w-[13.81px] h-[13.81px]">
               <Image src={optionIcon}></Image>
             </div>
 
-            <h1 className="pl-2">Lorem Ipsum</h1>
+            <h1 className="pl-2 whiteTextOpacity">Lorem Ipsum</h1>
             <div className='w-[15px] h-[15px] ml-[5px] mt-[2px]'>
               <Image src={questionVector}  />
             </div>
 
           </div>
-          <div className="w-[7.19px] h-[11.77px] mr-[25.23px]">
+          <div className=" mr-[25.23px]">
             <Image src={downArrow}/>
           </div>
         </div>
         {accordionState1 ? (
-          <div className="hide-scroll-bar">
-            <div className="grid grid-cols-2 cursor-pointer gap-x-[8px] gap-y-[10px] bg-[#0D0D0D] opacity-50 overflow-y-auto  h-[317px] w-[300px]  scrollbar  pr-4 md:grid-cols-3 md:w-[537px] ">
+          <div className="hide-scroll-bar pb-[48px]">
+            <div className="grid grid-cols-2 cursor-pointer gap-x-[8px] gap-y-[10px]  overflow-y-auto  h-[317px] w-[300px]  scrollbar  pr-4 md:grid-cols-3 md:w-[537px] ">
               {stats &&
                 stats.map((stat, index) => {
                   return (
@@ -223,21 +223,21 @@ const RightSide = () => {
           </div>
         ) : null}
       </div>
-      <div className="bg-[#0D0D0D] opacity-50">
-        <div id="accordion2" className="cursor-pointer flex justify-between p-4 mt-4 ">
+      <div className="backgroundOpacity">
+        <div id="accordion2" className="flex justify-between p-4 mt-4 cursor-pointer ">
           <div className="flex justify-around">
             <div className="w-3 h-3">
               <Image src={optionIcon}></Image>
             </div>
 
-            <h1 className="pl-2">Lorem Ipsum</h1>
+            <h1 className="pl-2 text-white">Lorem Ipsum</h1>
           </div>
           <div>
             <Image src={downArrow}></Image>
           </div>
         </div>
         {accordionState2 ? (
-          <div className="p-8 text-xs">
+          <div className="px-4 pb-4 text-xs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
         ) : null}

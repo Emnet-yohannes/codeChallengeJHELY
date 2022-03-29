@@ -18,10 +18,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-black ">
+      <main className="bg-black">
         <Navbar />
-        <div className="backgroundGradient1 flex flex-col">
-          <div className="h-[319px]  mx-[20px] relative flex flex-col items-center justify-stretch">
+        <div className="backgroundGradient1 flex flex-col ld:h-[1376px]">
+          <div className="h-[319px]  sm:mx-[20px] relative flex flex-col items-center justify-stretch">
             <div className="h-[264px] w-full relative flex flex-col justify-center">
               <Image
                 layout="responsive"
@@ -50,27 +50,27 @@ export default function Home() {
               </div>
             </div>
 
-            <h3 className="text-white h-[32px] w-[590px] text-center ">
+            <h3 className="text-white h-[32px] sm:w-[590px] text-center ">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
             </h3>
           </div>
           <div className="flex justify-center space-x-[20px] mt-[61px]">
-            <div className="cursor-pointer text-white bg-[#0D0D0D] opacity-50 flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-            <div className="w-[17px] h-[17px">
+            <div className="cursor-pointer text-white backgroundOpacity flex justify-center rounded-sm w-[140px] ml-[14px] sm:w-[184px] h-[50px] items-center space-x-3 rounded-[5px]">
+            <div className="w-[17px] h-[17px]">
                 <Image src={Statstics}></Image>
               </div>
 
               <h1>Lorem Ipsum</h1>
             </div>
-            <div className="cursor-pointer text-white bg-[#0D0D0D] flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-            <div className="w-[17px] h-[17px">
+            <div className="cursor-pointer text-white bg-[#0D0D0D] flex justify-center rounded-sm  w-[140px]  sm:w-[184px] h-[50px] items-center space-x-3 rounded-[5px]">
+            <div className="w-[17px] h-[17px]">
                 <Image src={optionIcon}></Image>
               </div>
 
               <h1>Lorem Ipsum</h1>
             </div>
-            <div className="cursor-pointer text-white  bg-[#0D0D0D] opacity-50 flex justify-center rounded-sm w-[184px] h-[50px] items-center space-x-3">
-              <div className="w-[17px] h-[17px">
+            <div className="cursor-pointer text-white  backgroundOpacity flex justify-center rounded-sm  w-[140px] mr-[14px] sm:w-[184px] h-[50px] items-center space-x-3 rounded-[5px]">
+              <div className="w-[17px] h-[17px]">
                 <Image src={tag}></Image>
               </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center ">
             <div className="grid grid-cols-1 gap-[19px] mt-[73px] xl:grid-cols-2 ">
-              <div className=" text-white w-[340px]  md:w-[591px] h-[344px] ">
+              <div className=" text-white  w-[340px]  md:w-[591px] h-[344px] ">
                 <LeftSide />
               </div>
               <div className="text-white mb-[138px]  w-[340px] md:w-[591px] h-[438px] ">
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <footer className="flex justify-center mt-[138px] pb-[100px] ">
+        <footer className="flex bg-[#000] justify-center pb-[85px]  pt-[25px] mt-[100px] ">
           <Image src={Footer}></Image>
         </footer>
       </main>

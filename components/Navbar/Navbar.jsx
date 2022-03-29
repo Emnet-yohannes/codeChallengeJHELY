@@ -5,11 +5,11 @@ import SearchBar from "../SearchBar/SearchBar";
 import Image from "next/image";
 const Header = () => (
   <div>
-    <div className="flex items-center py-[12px]  justify-between">
+    <div className="flex items-center  justify-between">
       <div className="w-[195px] h-[23px] ml-[40px]">
         <Image src={Logo} />
       </div>
-      <div className=" hidden md:block w-[657px] h-[45px] rounded-lg ml-[5%]">
+      <div className=" hidden md:block w-[657px] h-[45px] rounded-lg ml-[5%] mt-[26px] mb-[25px]">
         <SearchBar />
       </div>
       <div className=" flex justify-evenly ml-[41px] mr-[40px]">
