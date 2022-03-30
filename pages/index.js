@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className="bg-black">
         <Navbar />
-        <div className="backgroundGradient1 flex flex-col ld:h-[1376px]">
+        <div className="animatedBackground flex flex-col ld:h-[1376px]">
           <div className="h-[319px]  sm:mx-[20px] relative flex flex-col items-center justify-stretch">
             <div className="h-[264px] w-full relative flex flex-col justify-center">
               <Image

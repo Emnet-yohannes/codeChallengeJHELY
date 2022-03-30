@@ -43,11 +43,28 @@ a {
 
   border-radius: 5px;
 }
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
 @layer utilities {
   .backgroundGradient1{
     background: radial-gradient(72.76% 61.08% at 94.03% 7.28% , rgba(83, 80, 233, 0.3) 0%, rgba(252, 54, 76, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.25));
 
+  }
+  .animatedBackground{
+    background:linear-gradient(45deg,#100e71,#1a0003);
+    background-size:1400% 1400%;
+    position:relative;
+    animation:change 25s ease-in-out  infinite;
   }
   .backgroundOpacity{
     background-color:rgb(13,13,13,.5)

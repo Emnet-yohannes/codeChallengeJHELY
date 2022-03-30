@@ -206,7 +206,7 @@ const RightSide = () => {
               {stats &&
                 stats.map((stat, index) => {
                   return (
-                    <div className="hover:border-2 focus:border-2 border-pink-700 px-[15px] py-[26px] text-center bg-[#000]  h-[99px] md:w-[165px] rounded-[5px]">
+                    <div className="hover:border-2 focus:border-2 border-pink-700 px-[15px] py-[26px] text-center bg-[#0D0D0D]  h-[99px] md:w-[165px] rounded-[5px]">
                       <h3 className="text-[#8E8B8F] text-xs">
                         {stat.subtitle}
                       </h3>
